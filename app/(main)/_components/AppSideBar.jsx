@@ -16,13 +16,11 @@ import { Plus } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { use } from "react"
 
 export function AppSidebar() {
 
   const path = usePathname();
   
-
   return (
     <Sidebar>
       <SidebarHeader className="flex items-center">

@@ -25,7 +25,6 @@ const Provider = ({ children }) => {
                 setUser(user);
                 return;
             }
-            console.log('Users:', Users);
             setUser(Users[0]);
         });
     };
